@@ -31,9 +31,9 @@ end
 
 This will output:
 >Index: 1 Value: 10
-Index: 2 Value: 20
-Index: 3 Value: 30
-Index: 4 Value: 40
+>Index: 2 Value: 20
+>Index: 3 Value: 30
+>Index: 4 Value: 40
 
 
 ### Example 2: Handling gaps in the table:
@@ -47,8 +47,8 @@ end
 
 This will output:
 >Index: 1 Value: red  -- table[1] (apple)
-Index: 2 Value: yellow  -- table[2] (banana)
-Index: 4 Value: orange  -- table[4] (orange)
+>Index: 2 Value: yellow  -- table[2] (banana)
+>Index: 4 Value: orange  -- table[4] (orange)
 
 As you can see, ipairs skips the non-numeric key and iterates only through numeric indices (1, 2, and 4 in this case).
 
